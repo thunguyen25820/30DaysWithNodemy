@@ -5,23 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Card</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
-        <div class="heart"><
-            <i class="fa-solid fa-heart"></i>
+        <div class="card_heart">
+            <i class='bx bx-heart'></i>
         </div>
-        <div class="cart">
-            <i class="fa-solid fa-cart-shopping"></i>
+        <div class="card_cart">
+            <i class='bx bx-cart' ></i>
         </div>
-        <div class="content">
+        <div class="card_image">
             <img src="./image/anh5.png" alt="">
-            <h2>ChiBi</h2>
-            <p>$100</p>
+        </div>
+        <div class="card_title">Lamborghini</div>
+        <div class="card_price">$1tr</div>
+        <div class="card_cc">
+            <h3>CC: </h3>
+            <span>500</span>
+            <span>750</span>
+            <span>1000</span>
+        </div>
+        <div class="card_color">
+            <h3>Color: </h3>
+            <span class="card_color_blue"></span>
+            <span class="card_color_black"></span>
+            <span class="card_color_green"></span>
+        </div>
+        <div class="card_action">
+            <button class="btnBuyNow">Buy now</button>
+            <button class="btnAddCart">Add cart</button>
         </div>
     </div>
-    
 </body>
 </html>
