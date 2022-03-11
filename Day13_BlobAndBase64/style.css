@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #3575d1, #7d4ed4);
+    color: white;
+}
+
+.preview{
+    height: 500px;
+    width: 500px;
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    position: relative;
+}
+
+.preview i{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.preview img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
