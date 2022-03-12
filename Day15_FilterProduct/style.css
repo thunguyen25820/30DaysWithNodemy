@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    height: 100vh;
+    background: #dadada;
+    font-family:'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.search{
+    border: 1px solid gray;
+    margin: 20px 0;
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.product:hover{
+    background: rgba(0,0,0,0.1);
+}
+
+.product img{
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.info{
+    width: 100%;
+}
+
+.info .name{
+    font-weight: bold;
+}
+.info .price{
+    margin-top: 15px;
+}
+
+.hiden{
+    display: none;
+}
